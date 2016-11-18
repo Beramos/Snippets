@@ -1,0 +1,7 @@
+### Block comment lines 1:100
+
+:10,100s/^/#/
+
+### Block uncomment lines 1:100
+
+:10,100s/^/#/

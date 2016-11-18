@@ -1,0 +1,13 @@
+% thicker lines
+\makeatletter
+\newcommand{\thickhline}{%
+    \noalign {\ifnum 0=`}\fi \hrule height 1pt
+    \futurelet \reserved@a \@xhline
+}
+
+% Forced linebreak in cell?
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+
+% Horizontal line in slide or between paragraphs
+ \noindent\rule[0.5ex]{\linewidth}{1pt}
