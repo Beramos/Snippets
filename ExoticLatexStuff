@@ -11,3 +11,16 @@
 
 % Horizontal line in slide or between paragraphs
  \noindent\rule[0.5ex]{\linewidth}{1pt}
+
+% Text in two columns
+\begin{minipage}{0.48\textwidth}
+ Text1 
+\end{minipage} \hfill
+  
+\begin{minipage}{0.48\textwidth}
+ Text1
+\end{minipage}
+
+% White space between equations
+$ \frac{\mathrm{d}C_{ol}}{\mathrm{d}t} = k_{ol}\, A\, (C_{saturated}-C_{ol}) $ \\ [10pt]
+$ \rho_\mathrm{f} \left( \frac{\delta U_\mathrm{c}}{\delta t} + U_\mathrm{c}\cdot \nabla U_\mathrm{c} \right) = - \nabla p + \nabla \cdot \tau  + f$
